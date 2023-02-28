@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+/* font-family: 'Pangolin', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto:wght@100;300&display=swap");
+/* font-family: 'Roboto', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Tajawal&display=swap");
+/* font-family: 'Tajawal', sans-serif; */
+body {
+  padding-top: 50px;
+  background-color: rgba(226, 226, 226, 0.774);
+}
+/* start navbar */
+.navbar-dark .navbar-brand {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+.navbar-dark .navbar-brand:hover {
+  color: #ff6565;
+}
+
+.navbar-dark .navbar-brand span {
+  color: #ff6565;
+  transition: all 0.2s ease-in-out;
+}
+.navbar-dark .navbar-brand:hover span {
+  color: #fff;
+}
+
+/* start carousel */
+
+.carousel-inner {
+  color: aliceblue;
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/bg.jpg");
+  background-color: rgba(0, 0, 0, 0.7);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.carousel .carousel-item {
+  margin-top: 180px;
+}
+
+/* start thumbnails */
+div.alert-info {
+  padding: 20px;
+}
+.eng-container {
+  margin-top: 50px;
+}
+.img-thumbnail {
+  margin-bottom: 20px;
+}
+
+.img-thumbnail img {
+  opacity: 0.7;
+  transition: all 0.3s ease-in-out;
+}
+.img-thumbnail img:hover {
+  opacity: 1;
+  margin-left: 15px;
+}
+.container .row {
+  margin-top: 50px;
+}
+.container .row div ul {
+  font-size: 18px;
+  line-height: 50px;
+  list-style: none;
+}
+.container .row div ul li button {
+  color: aliceblue;
+  background-color: #ff6565;
+  border: 1px solid #ff6565;
+}
+.container .row div ul li button:hover {
+  color: #ff6565;
+  background-color: aliceblue;
+  border: 1px solid #ff6565;
+}
+.arabic {
+  direction: rtl;
+  font-family: "Tajawal", sans-serif;
+}
+.arabic h3 {
+  font-weight: 600;
+}
+del {
+  color: red;
+}
+.carousel del {
+  color: #fff;
+}
+img {
+  opacity: 0.7;
+  transition: all 0.3s ease-in-out;
+}
+img:hover {
+  opacity: 1;
+  box-shadow: 0px 0px 15px #000;
+}
+
+/* start footer */
+
+footer {
+  color: #fff;
+}
+.footer-copyright {
+  color: rgb(180, 180, 180);
+}
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: #ff6565;
+}
+
+footer h5 span {
+  color: #ff6565;
+}
+footer .container .row {
+  margin-top: 0px;
+}
+footer .container .row div ul {
+  font-size: 1rem;
+  line-height: 2rem;
+  list-style: none;
+}

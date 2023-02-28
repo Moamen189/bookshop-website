@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+/* font-family: 'Pangolin', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto:wght@100;300&display=swap");
+/* font-family: 'Roboto', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Tajawal&display=swap");
+/* font-family: 'Tajawal', sans-serif; */
+body {
+  padding-top: 50px;
+  background-color: rgba(226, 226, 226, 0.774);
+  /* font-family: "Pangolin", cursive; */
+}
+/* start navbar */
+.navbar-dark .navbar-brand {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+.navbar-dark .navbar-brand:hover {
+  color: #ff6565;
+}
+
+.navbar-dark .navbar-brand span {
+  color: #ff6565;
+  transition: all 0.2s ease-in-out;
+}
+.navbar-dark .navbar-brand:hover span {
+  color: #fff;
+}
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f2f7;
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+h4 {
+  font-weight: 800;
+  color: #888;
+}
+
+label {
+  font-weight: 700;
+  color: #888;
+  font-size: 12px;
+}
+
+.card-no {
+  border: none;
+  outline: none;
+  width: 90%;
+  padding-left: 8px;
+}
+
+.form-control {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.card-number {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px 8px 2px;
+}
+
+.form-inline label {
+  font-size: 1rem;
+}
+
+.focused {
+  border: 2px solid #9ab3f5;
+}
+
+#form-footer a {
+  margin: 0;
+}
+
+#form-footer p {
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #777;
+}
+
+@media (max-width: 395px) {
+  .form-inline label {
+    font-size: 12px;
+  }
+
+  #form-footer p {
+    font-size: 11px;
+  }
+
+  .card-no {
+    width: 85%;
+  }
+}
+
+input[type="submit"] {
+  color: aliceblue;
+  background-color: #ff6565;
+  border: 1px solid #ff6565;
+}
+input[type="submit"]:hover {
+  color: #ff6565;
+  background-color: aliceblue;
+  border: 1px solid #ff6565;
+}
+
+/* start footer */
+
+footer {
+  color: #fff;
+}
+.footer-copyright {
+  color: rgb(180, 180, 180);
+}
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: #ff6565;
+}
+
+footer h5 span {
+  color: #ff6565;
+}
+footer .container .row {
+  margin-top: 0px;
+}
+footer .container .row div ul {
+  font-size: 1rem;
+  line-height: 2rem;
+  list-style: none;
+}

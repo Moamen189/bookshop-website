@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+/* font-family: 'Pangolin', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto:wght@100;300&display=swap");
+/* font-family: 'Roboto', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Tajawal&display=swap");
+/* font-family: 'Tajawal', sans-serif; */
+body {
+  padding-top: 80px;
+  background-color: rgba(226, 226, 226, 0.774);
+}
+/* start navbar */
+.navbar-dark .navbar-brand {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+.navbar-dark .navbar-brand:hover {
+  color: #ff6565;
+}
+
+.navbar-dark .navbar-brand span {
+  color: #ff6565;
+  transition: all 0.2s ease-in-out;
+}
+.navbar-dark .navbar-brand:hover span {
+  color: #fff;
+}
+
+/* start content */
+.rtl {
+  direction: rtl;
+}
+.container .row ul {
+  font-size: 18px;
+  line-height: 50px;
+  list-style: none;
+}
+
+/* End content */
+/* start footer */
+
+footer {
+  color: #fff;
+}
+.footer-copyright {
+  color: rgb(180, 180, 180);
+}
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: #ff6565;
+}
+
+footer h5 span {
+  color: #ff6565;
+}
+footer .container .row {
+  margin-top: 0px;
+}
+footer .container .row div ul {
+  font-size: 1rem;
+  line-height: 2rem;
+  list-style: none;
+}

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- IE Compatibility Meta -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- First Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Search meta tag -->
+    <meta
+      name="description"
+      content="Buy books at the cheapest prices for a limited time."
+    />
+    <!-- Start author name -->
+    <meta name="author" content="Youssef Wael" />
+    <!-- Start Title -->
+    <title>Book Founder</title>
+    <!-- External files -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/payment.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+  </head>
+  <body>
+    <!-- start of navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Book <span> Founder</span></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item pr-3">
+              <a
+                class="nav-link"
+                href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=youssefwael397@gmail.com&tf=1"
+                target="_blank"
+                ><i class="fas fa-envelope"></i> Contact-us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <div class="wrapper container mt-5">
+      <h4 class="text-uppercase">Payment Details</h4>
+      <form class="form mt-4">
+        <div class="form-group">
+          <label for="name" class="text-uppercase">name on the card</label>
+          <input type="text" class="form-control" placeholder="Youssef Wael" />
+        </div>
+        <div class="form-group">
+          <label for="card" class="text-uppercase">card number</label>
+          <div class="card-number">
+            <input
+              type="text"
+              class="card-no"
+              step="4"
+              placeholder="1234 4567 5869 1234"
+              pattern="^[0-9].{15,}"
+            />
+            <span class="">
+              <img
+                src="https://www.freepnglogos.com/uploads/mastercard-png/mastercard-marcus-samuelsson-group-2.png"
+                alt=""
+                width="30"
+                height="30"
+              />
+            </span>
+          </div>
+        </div>
+        <div class="d-flex w-100">
+          <div class="d-flex w-50 pr-sm-4">
+            <div class="form-group">
+              <label for="expiry" class="text-uppercase">exp.date</label>
+              <input type="text" class="form-control" placeholder="03/2020" />
+            </div>
+          </div>
+          <div class="d-flex w-50 pl-sm-5 pl-3">
+            <div class="form-group">
+              <label for="cvv">CVV</label>
+              <input
+                type="password"
+                class="form-control pr-5"
+                maxlength="3"
+                placeholder="123"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="form-inline pt-sm-3 pt-2">
+          <input type="checkbox" name="address" id="address" />
+          <label for="address" class="px-sm-1 pl-1 pt-sm-0 pt-2"
+            >My billing address is the same as the shipping</label
+          >
+        </div>
+        <div class="form-inline py-sm-2">
+          <input type="checkbox" name="details" id="details" />
+          <label for="details" class="px-sm-2 pl-2 pt-sm-0 pt-2"
+            >Save my details for future purchases</label
+          >
+        </div>
+        <div class="my-3">
+          <input
+            type="submit"
+            value="place your order"
+            class="text-uppercase btn btn-primary btn-block p-3"
+          />
+        </div>
+      </form>
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer font-small bg-dark pt-4 mt-5">
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left">
+        <!-- Grid row -->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-6 mx-auto">
+            <!-- Content -->
+            <h5 class="font-weight-bold mt-3 mb-4">
+              Book <span> Founder</span>
+            </h5>
+            <p>
+              This website was created May 10, 2021,<br />
+              which was requested by Dr. Fayza Ahmed
+            </p>
+            <p>
+              This website is about selling books to earn information. <br />We
+              must know the benifits what we earn from reading books and we
+              should encourage people to read more and more.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="clearfix w-100 d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-6 mx-auto">
+            <!-- Links -->
+            <h5 class="font-weight-bold mt-3 mb-4 text-center">Team Names</h5>
+
+            <div class="row">
+              <ul class="list-unstyled col-md-6 text-center">
+                <li>Youssef Wael</li>
+                <li>Moamen Ashraf</li>
+                <li>Mahmoud Ashraf</li>
+              </ul>
+              <ul class="list-unstyled col-md-6 text-center">
+                <li>Mohamed Mounir</li>
+                <li>Mostafa Mahmoud</li>
+                <li>Fouad Magdy</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+      <!-- Footer Links -->
+
+      <hr />
+
+      <!-- Social buttons -->
+      <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+          <a class="btn-floating btn-fb mx-1">
+            <i class="fab fa-facebook-f fa-lg"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-tw mx-1">
+            <i class="fab fa-twitter fa-lg"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-gplus mx-1">
+            <i class="fab fa-google-plus-g fa-lg"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-li mx-1">
+            <i class="fab fa-linkedin-in fa-lg"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-dribbble mx-1">
+            <i class="fab fa-dribbble fa-lg"> </i>
+          </a>
+        </li>
+      </ul>
+      <!-- Social buttons -->
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        © 2021 Copyright:
+        <a href="index.html"> bookFounder.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugin.js"></script>
+  </body>
+</html>
